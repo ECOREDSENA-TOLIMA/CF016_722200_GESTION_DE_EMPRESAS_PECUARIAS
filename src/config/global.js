@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Mantenimiento y evaluación del sistema silvopastoril',
+    descripcionCurso:
+      'Con el estudio de este componente, el aprendiz afianzará sus conocimientos y habilidades en el mantenimiento y evaluación de un sistema de pastoreo y el compendio de actividades agrícolas conexas: producción silvícola (producción de madera) y la producción pastoril (producción de pastos). También se capacitará en la maximización de la producción y disminución de los impactos generados a los ecosistemas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +32,38 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manejo de los sistemas silvopastoriles',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Requerimientos hídricos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Manejo integrado de plagas, enfermedades y malezas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Poda de las especies arbóreas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Rotación de potreros',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Manejo y disposición de residuos',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Suplementación alimenticia',
+            hash: 't_1_6',
           },
         ],
       },
@@ -45,7 +71,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manejo de información en el sistema silvopastoril',
         desarrolloContenidos: true,
       },
       {
@@ -53,6 +79,24 @@ export default {
         numero: '3',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo:
+              'Parámetros técnicos para la evaluación del sistema silvopastoril',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Plan de contingencia',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Plan de mejoramiento',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
