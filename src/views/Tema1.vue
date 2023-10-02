@@ -8,10 +8,10 @@
       h1 Manejo de los sistemas silvopastoriles 
 
     .row.align-items-center.my-1.col-lg-12.m-auto        
-      .col-5
+      .col-lg-5.col-sm-12.col-m-12.col-md-12
         figure
-          img(src='@/assets/curso/temas/1/1.svg').m-auto(data-aos="fade-right")
-      .col-7
+          img.mb-1(src='@/assets/curso/temas/1/1.svg').m-auto(data-aos="fade-right")
+      .col-lg-7.col-sm-12.col-m-12.col-md-12
         p(data-aos="fade-up" style="overflow-x: hidden !important") El manejo de los sistemas silvopastoriles depende de las variables físicas, químicas y de la planificación que se realice de las actividades agrícolas, ya que estas son el punto de partida para lograr que la producción no tenga altibajos que puedan poner en riesgo las especies vegetales y a los animales.
         .cajon.p-2.mt-0.col-lg-12.m-auto.pb-0(style="background-color:#DBF9BD; overflow-x: hidden !important")
           p.mb-2.py-2(style="overflow-x: hidden !important") Para llevar a cabo todos los procesos operativos, es vital el potencial humano, ya que es el personal el que granizará que todo marche bien. Por esta razón es indispensable garantizar la seguridad y la calidad de vida del personal, lo cual conduce a una implementación de un 
