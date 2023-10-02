@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Manejo de los sistemas silvopastoriles 
 
     .row.align-items-center.my-1.col-lg-12.m-auto        
       .col-5
@@ -159,10 +159,204 @@
           figure
             img(src='@/assets/curso/temas/1/10.svg', alt='Texto que describa la imagen')
 
+    .cont_1_2.pt-3(style="position:relative;")
+      .titulo-segundo.color-primario(style="position:relative")
+        h2#t_1_2 1.2.	Manejo integrado de plagas, enfermedades y malezas 
+
+    p Las plagas, enfermedades y malezas son una evidente amenaza a los sistemas silvopastoriles, debido a que estos actores influyen, directamente, en los beneficios que las plantas brindan a los animales y en su propio desarrollo; por eso es necesario visualizar una solución ecológica para el equilibrio y manejo general del sistema silvopastoril.
+    p.mb-5 Preste atención a las particularidades del manejo de plagas y malezas que se mencionan a continuación:     
+
+    .tarjeta.bg3.p-4.mb-5(style="background-color: #FFFAD0")
+      LineaTiempoC.color-acento-botones(text-small)
+        .row.align-items-center(titulo="Eliminación de organismos maléficos").p-4
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/1/12.png' alt='Eliminación de organismos maléficos').mb-4
+          .col-lg-7
+            h4 Eliminación de organismos maléficos
+            p Eliminar los organismos que atentan contra el desarrollo de los cultivos y especies animales, es una tarea ardua y que, a la vez, se torna bastante difícil, ya que para hacerlo eficientemente es necesario el uso de pesticidas químicos que, a su vez, generan otro problema en el medio ambiente. 
+
+        .row.align-items-center(titulo="Control preventivo").p-4
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/1/13.png' alt='Control preventivo').mb-4
+          .col-lg-7
+            h4 Control preventivo
+            p Por todo ello, es recomendable optar por métodos más amigables con los ecosistemas, como el control preventivo, lo que, a la larga, se traduce en economía porque no se tiene que invertir en insumos químicos para contrarrestar la situación.
+
+        .row.align-items-center(titulo="Planificación de asociaciones de diversas especies").p-4
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/1/14.png' alt='Planificación de asociaciones de diversas especies').mb-4
+          .col-lg-7
+            h4 Planificación de asociaciones de diversas especies
+            p Para realizar un control preventivo, se debe partir de conocer que los monocultivos generalmente conllevan a ataques constantes por las plagas y las enfermedades, y que la solución a esta problemática parte de la planificación de asociaciones de diversas especies para el sistema silvopastoril, en otras palabras, la diversidad de las especies implementadas minimiza el accionar de estos actores.
+
+        .row.align-items-center(titulo="Extensión de la diversificación de especies").p-4
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/1/15.png' alt='Extensión de la diversificación de especies').mb-4
+          .col-lg-7
+            h4 Extensión de la diversificación de especies
+            p Esta asociación de especies, a menudo, resulta provechoso para algunos organismos benéficos que actúan como foco de control a algunas plagas, tal como las avispas, la mantis religiosa, algunos artrópodos, entre otros.
+
+        .row.align-items-center(titulo="Ventajas del control de plagas").p-4
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/temas/1/16.png' alt='Ventajas del control de plagas').mb-4
+          .col-lg-7
+            h4 Ventajas del control de plagas
+            p Una de las ventajas del control de plagas, por medio de la diversidad de especies, es que las plantas, al crecer en condiciones más favorables, se vuelven más resistentes a las enfermedades y las plagas. 
+
+        .row.align-items-center(titulo="Mejorando la calidad de los suelos").p-4
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/temas/1/17.png' alt='Mejorando la calidad de los suelos').mb-4
+          .col-lg-8
+            h4 Mejorando la calidad de los suelos
+            p Para garantizar el crecimiento de la asociación de especies es necesario mejorar la calidad del suelo para que este aporte los nutrientes necesarios a las plantas del sistema silvopastoril. Una manera de potenciar los suelos es el uso de abonos verdes como el “mulch” orgánico (“organic mulch”).
+
+        .row.align-items-center(titulo="¿Qué es el “mulch” orgánico?").p-4
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/temas/1/18.png' alt='¿Qué es el “mulch” orgánico?').mb-4
+          .col-lg-8
+            h4 ¿Qué es el “mulch” orgánico?
+            p Cubierta natural que protege el suelo; es muy fácil de realizarla ya que se compone de materiales residuales de las podas, talas, cortezas, hojas, los cuales se descomponen en una compostela. Son fuente perfecta de nutrientes para los suelos. Dentro de las funciones que tiene el “mulch” orgánico esta regular la temperatura de los suelos, conservar la humedad, reducir el crecimiento de malezas, y regular la escorrentía superficial.
+
+    p.mb-5 Estudie la tabla que, a continuación, se muestra y conozca aspectos importantes sobre las plagas más comunes:
+
+    .row.align-items-center.mb-5.col-lg-12.m-auto  
+      .col-sm-12.col-lg-12
+        .titulo-sexto.mb-0.color-acento-contenido.mb-1
+          p.mb-0 #[b Tabla 2.] 
+            i Plagas comunes en los sistemas silvopastoriles 
+
+    .tabla-b.color-acento-contenido.col-lg-12.m-auto.mb-5  
+      .tabla-b__header
+        th Plagas
+        td Acciones
+      table
+        caption Sistemas silvopastoriles.
+        tr
+          th Hormigas (arrieras en su mayoría)  
+          td Realizan el corte a las hojas provocando la defoliación de las plantas.
+        tr
+          th Gusanos (alambre o gallina ciega)
+          td Son larvas de diferentes escarabajos que se instalan en los suelos y se alimentan de las raíces de las plantas.
+        tr
+          th Gorgojos
+          td Son larvas que carcomen la pulpa de los troncos y tallos provocando degeneración y pudrición.
+        tr
+          th Ácaros
+          td Son arácnidos muy pequeños, casi imperceptibles que pican las hojas y los frutos provocando manchas.
+        tr
+          th Chinches 
+          td Absorben la sabia presente en las plantas y son foco de transmisión de enfermedades virales.
+        tr
+          th Piojo
+          td Absorben la sabia y provocan manchas harinosas en las hojas.
+        tr
+          th Gusanos (enrollador o perforador)
+          td Son las larvas de lagunas mariposas que carcomen las hojas y los frutos.
+        tr
+          th Pulgones o afidios 
+          td Absorben la sabia de las hojas, tallos y frutos provocando un debilitamiento de la planta.
+        tr
+          th Minadores  
+          td Son larvas de moscas que afectan los tejidos de las hojas y de los frutos 
+        tr
+          th Palomillas 
+          td Son mariposas nocturnas, su aspecto es peludo y afectan los frutos provocando su pudrición y posterior caída. 
+        tr
+          th Minadores  
+          td Son insectos del orden Thysanoptera, los adultos afectan la superficie de las hojas y de los frutos 
+
+    .row.align-items-center.my-5.col-lg-8.m-auto  
+        .cajon.color-primario.p-4.mt-0.col-lg-12.m-auto.pb-1(style="background-color:#E3E7DF;")
+          h4 Atención
+          p.mb-0.py-3(data-aos="fade-up") La regulación de la luz solar en los suelos, ayuda a disminuir los ataques de insectos y de los hongos.
+
+    .col.align-items-center.my-5.col-lg-12.m-auto  
+      span.etiqueta.px-5(style="background-color: #1B3F5E") 
+        b Importante
+
+    p.mb-5 Otro método de control de plagas es la introducción de plantas que atraen algunos insectos depredadores naturales de estas, que se pueden instalar en asociación con las barreras vivas o las cortinas rompe vientos. También existen plantas repelentes a algunas plagas, una gran mayoría de estas están en la clasificación de platas aromáticas como las relacionadas en esta tabla:   
+
+    .row.align-items-center.mb-5.col-lg-10.m-auto  
+      .col-sm-12.col-lg-12
+        .titulo-sexto.mb-0.color-acento-contenido.mb-1
+          p.mb-0 #[b Tabla 3.] 
+            i Especies repelentes de plagas 
+
+    .tabla-b.color-acento-contenido.col-lg-10.m-auto.mb-5  
+      .tabla-b__header
+        th Planta
+        td Ventajas
+      table
+        caption Otras plantas con injerencia en el control de plagas son las forrajeras: como el botón de oro y la canavalia; brindan una muy buena fuente de nutrición a los animales. 
+        tr
+          th Ajo  
+          td El ajo ayuda en control de gusanos, ácaros y pulgones. 
+        tr
+          th Manzanilla
+          td Es un atrayente natural de enemigos naturales de las plagas, controla los pulgones.
+        tr
+          th Ruda
+          td Es un repelente de los gusanos trozadores y medidores, de pulgones y controla la acción de las hormigas.
+        tr
+          th Orégano
+          td Repelente natural de gusanos medidores y trozadores y de los pulgones.
+        tr
+          th Flor de muerto
+          td Repela la mosca blanca o palomilla, controla los nematodos del suelo y es una trampa natural de los pulgones. 
+        tr
+          th Albahaca
+          td Es una trampa natural de los pulgones y repelente de insectos como el chinche.
+        tr
+          th Romero
+          td Atrae enemigos naturales de las plagas y repela insectos.
+
+    .cont_1_3.pt-3(style="position:relative;")
+      .titulo-segundo.color-primario(style="position:relative")
+        h2#t_1_3 1.3.	Poda de las especies arbóreas     
+
+    p La inclusión de especies arbóreas en los sistemas silvopastoriles es una actividad doble propósito, ya que pueden proporcionar sombra y protección por medio de las cercas vivas y también ser fuente de alimento a los animales; esta última actividad se torna un poco compleja cuando los árboles crecen y superan los 2 metros de altura, ya que después de ese nivel los animales no pueden alcanzar sus ramas.
+    p.mb-5 En el proceso de poda de especies arbóreas, tenga presentes los aspectos que se detallan a continuación:     
+
+    ImagenInfografica.color-acento-botones
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/1/19.svg', alt='Texto que describa la imagen')
+
+      .tarjeta.color-secundario.p-3(x="11.9%" y="13.7%" numero="+")
+        .h5.mb-2 Beneficio animales
+        p La inclusión de la poda, como sistema de control de alturas, beneficiará tanto a los animales que consumen la biomasa como al sistema en general, debido a que el control de alturas ya sea, uniforme o aleatoria (por las sombras).
+
+      .tarjeta.color-secundario.p-3(x="37.5%" y="88.5%" numero="+")
+        .h5.mb-2 Beneficio suelos
+        p Además de generar alimento a animales, también trae beneficios a suelos, por la producción de hojarasca que provee de nutrientes a los suelos mejorando los niveles de nutrición a los pastos y plantas arbustivas, dispuestas en los potreros.
+
+      .tarjeta.color-secundario.p-3(x="62.9%" y="13.2%" numero="+")
+        .h5.mb-2 Criterios de poda
+        p La definición de los criterios de las podas va directamente relacionada con las especies presentes en el sistema, ya que cada caso en particular deberá tener un proceso de implementación, acorde a periodos de crecimiento y necesidades nutricionales para los animales.
+
+      .tarjeta.color-secundario.p-3(x="88.2%" y="88.5%" numero="+")
+        .h5.mb-2 Buenas prácticas agricolas
+        p Las actividades antrópicas deben realizarse según las buenas prácticas agrícolas, para que las actividades de podas no sean perjudiciales para las especies arbóreas, el personal que realiza la actividad deberá estar capacitado con curso de alturas, conocimientos previos en podas y manejo de herramientas, utilizando la indumentaria de seguridad (EPP’s).
+
+    .cont_1_4.pt-3(style="position:relative;")
+      .titulo-segundo.color-primario(style="position:relative")
+        h2#t_1_4 1.4.	Rotación de potreros  
 
 
+    .row.align-items-center.my-3.col-lg-12.m-0        
+        p.mb-2.py-1(style="overflow-x: hidden !important") Hablar de pastoreo rotacional es, así mismo, hablar de la división de toda un área en pequeñas partes o potreros. De esta manera, mientras se está ocupando alguna de esas partes, las demás están en descanso.
+        p.mb-2.py-1(style="overflow-x: hidden !important") En el siguiente recurso, profundice en los aspectos cruciales que determinan, o no, un buen proceso de rotación de potreros; procure llevar registro de lo más destacado en su libreta personal de apuntes:
 
-
+    figure.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com//embed/Wp5qbTODkuQ" title="Video Huella Hidrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
