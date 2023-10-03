@@ -324,39 +324,270 @@
     p La inclusión de especies arbóreas en los sistemas silvopastoriles es una actividad doble propósito, ya que pueden proporcionar sombra y protección por medio de las cercas vivas y también ser fuente de alimento a los animales; esta última actividad se torna un poco compleja cuando los árboles crecen y superan los 2 metros de altura, ya que después de ese nivel los animales no pueden alcanzar sus ramas.
     p.mb-5 En el proceso de poda de especies arbóreas, tenga presentes los aspectos que se detallan a continuación:     
 
-    ImagenInfografica.color-acento-botones
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/1/19.svg', alt='Texto que describa la imagen')
+    figure.desktop.d-none.d-sm-block.d-sm-none.d-lg-block.d-none.d-md-block
+      ImagenInfografica.color-acento-botones
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/1/19.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-secundario.p-3(x="11.9%" y="13.7%" numero="+")
-        .h5.mb-2 Beneficio animales
-        p La inclusión de la poda, como sistema de control de alturas, beneficiará tanto a los animales que consumen la biomasa como al sistema en general, debido a que el control de alturas ya sea, uniforme o aleatoria (por las sombras).
+        .tarjeta.color-secundario.p-3(x="11.9%" y="13.7%" numero="+")
+          .h5.mb-2 Beneficio animales
+          p La inclusión de la poda, como sistema de control de alturas, beneficiará tanto a los animales que consumen la biomasa como al sistema en general, debido a que el control de alturas ya sea, uniforme o aleatoria (por las sombras).
 
-      .tarjeta.color-secundario.p-3(x="37.5%" y="88.5%" numero="+")
-        .h5.mb-2 Beneficio suelos
-        p Además de generar alimento a animales, también trae beneficios a suelos, por la producción de hojarasca que provee de nutrientes a los suelos mejorando los niveles de nutrición a los pastos y plantas arbustivas, dispuestas en los potreros.
+        .tarjeta.color-secundario.p-3(x="37.5%" y="88.5%" numero="+")
+          .h5.mb-2 Beneficio suelos
+          p Además de generar alimento a animales, también trae beneficios a suelos, por la producción de hojarasca que provee de nutrientes a los suelos mejorando los niveles de nutrición a los pastos y plantas arbustivas, dispuestas en los potreros.
 
-      .tarjeta.color-secundario.p-3(x="62.9%" y="13.2%" numero="+")
-        .h5.mb-2 Criterios de poda
-        p La definición de los criterios de las podas va directamente relacionada con las especies presentes en el sistema, ya que cada caso en particular deberá tener un proceso de implementación, acorde a periodos de crecimiento y necesidades nutricionales para los animales.
+        .tarjeta.color-secundario.p-3(x="62.9%" y="13.2%" numero="+")
+          .h5.mb-2 Criterios de poda
+          p La definición de los criterios de las podas va directamente relacionada con las especies presentes en el sistema, ya que cada caso en particular deberá tener un proceso de implementación, acorde a periodos de crecimiento y necesidades nutricionales para los animales.
 
-      .tarjeta.color-secundario.p-3(x="88.2%" y="88.5%" numero="+")
-        .h5.mb-2 Buenas prácticas agricolas
-        p Las actividades antrópicas deben realizarse según las buenas prácticas agrícolas, para que las actividades de podas no sean perjudiciales para las especies arbóreas, el personal que realiza la actividad deberá estar capacitado con curso de alturas, conocimientos previos en podas y manejo de herramientas, utilizando la indumentaria de seguridad (EPP’s).
+        .tarjeta.color-secundario.p-3(x="88.2%" y="88.5%" numero="+")
+          .h5.mb-2 Buenas prácticas agricolas
+          p Las actividades antrópicas deben realizarse según las buenas prácticas agrícolas, para que las actividades de podas no sean perjudiciales para las especies arbóreas, el personal que realiza la actividad deberá estar capacitado con curso de alturas, conocimientos previos en podas y manejo de herramientas, utilizando la indumentaria de seguridad (EPP’s).
 
+    figure.movil.mt-0
+      .row.justify-content-center.d-lg-none.d-md-none        
+        img(src="@/assets/curso/temas/1/33.svg" data-aos="zoom-in-up")      
+  
     .cont_1_4.pt-3(style="position:relative;")
       .titulo-segundo.color-primario(style="position:relative")
         h2#t_1_4 1.4.	Rotación de potreros  
-
-
+  
     .row.align-items-center.my-3.col-lg-12.m-0        
         p.mb-2.py-1(style="overflow-x: hidden !important") Hablar de pastoreo rotacional es, así mismo, hablar de la división de toda un área en pequeñas partes o potreros. De esta manera, mientras se está ocupando alguna de esas partes, las demás están en descanso.
         p.mb-2.py-1(style="overflow-x: hidden !important") En el siguiente recurso, profundice en los aspectos cruciales que determinan, o no, un buen proceso de rotación de potreros; procure llevar registro de lo más destacado en su libreta personal de apuntes:
 
-    figure.mt-5
+    figure.my-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com//embed/Wp5qbTODkuQ" title="Video Huella Hidrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com//embed/zKx6lr_0Fik" title="Video Huella Hidrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    p Las siguientes, son algunas ventajas y desventajas del pastoreo rotacional. Analice, con atención, cada una de ellas:
+
+    .row.align-items-center.my-5.col-lg-12.m-auto  
+      .col-sm-12.col-lg-12
+        .titulo-sexto.mb-0.color-acento-contenido.mb-1
+          p.mb-0 #[b Tabla 4.] 
+            i Ventajas y desventajas del pastoreo rotacional  
+
+    .tabla-a.color-acento-botones 
+      table
+        caption Ventajas y desventajas del pastoreo rotacional  
+        thead
+          tr
+            th Ventajas
+            th Desventajas
+            
+        tbody
+          tr
+            td Se facilita la fertilización 
+            td Mayor inversión en la construcción de los potreros  
+            
+          tr
+            td Los potreros son pastoreados uniformemente  
+            td Mayor inversión en mantenimiento de cercas   
+            
+          tr
+            td Hay presencia de zonas sobre pastoreadas en conjunto con pastos tupidos  
+            td Requiere un mayor número de bebederos y comederos    
+          tr
+            td Mayor tasa de engorde de los animales cuando se utilizan pastos perennes 
+            td Mayor área para dividir    
+            
+          tr
+            td Se puede dar un adecuado manejo a cultivos de pastos asociados con leguminosas
+            td Personal de traslado   
+            
+          tr
+            td La producción de forraje aumenta   
+            td Mayor número de inspecciones a los animales y a los pastos      
+          tr
+            td De acuerdo a la clasificación por etapa fisiológica de los animales (estratificación), se puede llevar a cabo un adecuado manejo
+            td 
+            
+          tr
+            td Los ciclos de desarrollo de parásitos, plagas y/o enfermedades se pueden quebrar o interrumpir 
+            td 
+            
+          tr
+            td Hay un control de malezas    
+            td  
+          tr
+            td De acuerdo a la época de lluvias se aumenta el material para producción de heno 
+            td   
+
+    Separador.mt-0        
+
+    .cont_1_5(style="position:relative;")
+      .titulo-segundo.color-acento-contenido(style="position:relative")
+        h2#t_1_5 1.5.	Manejo y disposición de residuos   
+
+    p Los residuos generados en un sistema silvopastoril, aplicado desde la perspectiva orgánica, prácticamente son nulos, ya que los procesos de poda, tala y mantenimientos, producirán materias orgánicas que son propias para la elaboración de otros subproductos como el abono orgánico.
+    p Le presentamos una serie de factores, que usted debe tener en cuenta, para procesos efectivos de manejo y disposición de residuos:    
+
+    figure.desktop.d-none.d-sm-block.d-sm-none.d-lg-block.d-none.d-md-block
+      ImagenInfografica.color-acento-botones
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/1/20.svg', alt='Texto que describa la imagen')
+
+        .tarjeta.color-secundario.p-3(x="34.5%" y="9%" numero="+")
+          .h5.mb-2 Uso de abono
+          p La compostela se enfría a temperatura ambiente y se inicia su uso (aprox. 2 kg/ árbol).
+
+        .tarjeta.color-secundario.p-3(x="64.5%" y="9%" numero="+")
+          .h5.mb-2 Almacenamiento
+          p Por ser un abono orgánico se puede almacenar por largos periodos de tiempo, siempre y cuando no esté a la acción del sol y de la lluvia.
+
+        .tarjeta.color-secundario.p-3(x="82.9%" y="30%" numero="+")
+          .h5.mb-2 Identificación de la materia prima
+          p Estiércol, hojarasca, troncos, ramas, otros.
+
+        .tarjeta.color-secundario.p-3(x="75%" y="60%" numero="+")
+          .h5.mb-2 Sitio de compostaje
+          p Debe ser amplio y con acceso a una fuente hídrica.
+
+        .tarjeta.color-secundario.p-3(x="50%" y="71%" numero="+")
+          .h5.mb-2 Materiales y equipos
+          p Palas, carretas, máquinas, etc.
+
+        .tarjeta.color-secundario.p-3(x="25.3%" y="61%" numero="+")
+          .h5.mb-2 Agregado de ingredientes
+          p Colocar capas de 15 cm de cada ingrediente, más agua. 
+
+        .tarjeta.color-secundario.p-3(x="17.5%" y="31%" numero="+")
+          .h5.mb-2 Mezcla
+          p El movimiento es clave para la calidad del compost (una vez al día para evitar que se suba la temperatura y se queme).
+
+    figure.movil.mt-0
+      .row.justify-content-center.d-lg-none.d-md-none        
+        img(src="@/assets/curso/temas/1/34.svg" data-aos="zoom-in-up")      
+  
+
+    p.my-5 Profundice, ahora, en algunos aspectos relativos al manejo de excretas en el marco del sistema silvopastoril:
+
+    LineaTiempoE.color-primario(style="padding-right: 100px !important")
+      .row(titulo="Manejo de excretas")
+        .col-lg-6.mb-4.mb-lg-0
+          p El manejo de excretas (excremento y orines), en las fincas ganaderas, ha permitido que los residuos generados por los animales se aprovechen para la elaboración de abonos orgánicos que se usan en la misma finca, como fertilizante para los potreros. Esto reduce, en muy buena proporción, cantidades necesarias de insumos químicos externos y la liberación de metano a la atmósfera.
+        .col-lg-6
+          figure
+            img(src='@/assets/curso/temas/1/21.png', alt='Texto que describa la imagen')
+
+      .row(titulo="Malos manejos")
+        .col-lg-6
+          figure
+            img(src='@/assets/curso/temas/1/22.png', alt='Texto que describa la imagen')
+        .col-lg-6.mb-4.mb-lg-0
+          p El mal manejo de las excretas en la ganadería ha contribuido a la contaminación de fuentes de agua disponibles para el consumo humano y de otras especies. Esto constituye un serio problema porque algunos parásitos que afectan la salud humana y animal contaminan las aguas de donde se abastece el ganado y la comunidad.
+      
+      .row(titulo="Compostaje")
+        .col-lg-6.mb-4.mb-lg-0
+          p Una de las formas más apropiadas de manejo de las excretas es el compostaje, la descomposición o degradación de los materiales orgánicos de desecho, que se generan de un proceso humano, animal, industrial, etc. En un ambiente cálido, húmedo y aireado, los microorganismos (microbios) contribuyen a la descomposición de estos desechos que se convierten en abono orgánico.
+        .col-lg-6
+          figure
+            img(src='@/assets/curso/temas/1/23.png', alt='Texto que describa la imagen')
+
+      .row(titulo="Materiales orgánicos de desecho")
+        .col-lg-6
+          figure
+            img(src='@/assets/curso/temas/1/24.png', alt='Texto que describa la imagen')
+        .col-lg-6.mb-4.mb-lg-0
+          p El abono orgánico permite maximizar el uso de materiales orgánicos de desecho, disponibles por la ganadería y la agricultura. Este abono es fuente de nutrientes que son liberados, gradualmente, según necesidades de las plantas, en este caso, los pastos. 
+      
+      .row(titulo="Mejoras del suelo")
+        .col-lg-6.mb-4.mb-lg-0
+          p Además de lo mencionado, el abono mejora el contenido de materia orgánica y las características del suelo, la retención de agua y evita la erosión; debido a la diversidad de desechos orgánicos que se tienen en una finca, es posible preparar una gran variedad de abonos orgánicos.
+        .col-lg-6
+          figure
+            img(src='@/assets/curso/temas/1/25.png', alt='Texto que describa la imagen')
+
+    Separador.mt-5        
+
+
+    .cont_1_6.pt-1(style="position:relative;")
+      .titulo-segundo.color-primario(style="position:relative")
+        h2#t_1_6 1.6.	Suplementación alimenticia  
+
+    .row.align-items-center.my-1.col-lg-12.m-auto        
+      .col-lg-5.col-sm-12.col-m-12.col-md-12
+        figure
+          img.mb-1(src='@/assets/curso/temas/1/26.png').m-auto(data-aos="fade-right")
+      .col-lg-7.col-sm-12.col-m-12.col-md-12
+        p(data-aos="fade-up" style="overflow-x: hidden !important") La alimentación de los animales es base primordial para una buena producción, por esta razón el sistema deberá garantizar que la combinación de pasturas, forrajes y árboles, brinden una alimentación balanceada que aporte los nutrientes necesarios para la cría, la ceba o el doble propósito, en la ganadería colombiana.
+        .cajon.p-2.mt-0.col-lg-12.m-auto.pb-0(style="background-color:#DBF9BD; overflow-x: hidden !important")
+          p.mb-2.py-2(style="overflow-x: hidden !important") La suplementación estratégica se basa en el análisis de la calidad nutricional de los alimentos, la estimación de los requerimientos nutricionales de los bovinos, el conocimiento de las condiciones climáticas de la zona de implementación, el suministro de cantidades recomendadas y el uso de un programa de balanceo de raciones. 
+
+    p.my-5 Tenga presente estos aspectos de la suplementación alimenticia; procure tomar nota de lo más relevante, en su libreta personal de apuntes:
+
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/1/27.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#DBF9BD")
+            .text-black.p-4
+              h2.text-center Suplementación estratégica
+              p.text-center Mecanismo para realizar una corrección a la carencia o deficiencia de nutrientes en las asociaciones del sistema silvopastoril, del ganado en pastoreo.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/1/28.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#DBF9BD")
+            .p-4
+              h2.text-center Plan nutricional
+              p.text-center Un plan nutricional con subproductos agroindustriales y ensilajes, se verán reflejados en un incremento en la producción de leche y de carne, y disminución del déficit de nutrientes.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/1/29.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#DBF9BD")
+            .p-4
+              h2.text-center Escogencia de alimentos suplementarios
+              p.text-center Se deberá tener en cuenta la demanda, los costos, la cercanía y la composición nutricional, entre otros. 
+
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/1/30.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#DBF9BD")
+            .text-black.p-4
+              h2.text-center Pruebas de laboratorio
+              p.text-center Estos alimentos deberán someterse a pruebas de laboratorio en las cuales se evaluarán las composiciones de cada uno; cuando arrojen los resultados se evaluará y se formulará la dieta a implementar, a partir de ello.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/1/31.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#DBF9BD")
+            .p-4
+              h2.text-center Pastos y ensilajes
+              p.text-center Los pastos más comunes son del género “Brachiaria”, y los ensilajes que más se utilizan son de maíz y sorgo forrajero. 
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/1/32.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#DBF9BD")
+            .p-4
+              h2.text-center Subproductos energéticos
+              p.text-center Los subproductos energéticos disponibles son las harinas de arroz y maíz, las tortas de palmiste alta y baja en grasa, el glicerol y la melaza, los subproductos proteicos, las tortas de soya y algodón y los granos secos de destilería. Como fuente mineral se utilizan premezclas o sales mineralizadas.
+
 
 </template>
 
