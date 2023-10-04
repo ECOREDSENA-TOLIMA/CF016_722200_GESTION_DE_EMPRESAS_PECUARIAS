@@ -141,32 +141,85 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.2 Manejo integrado de plagas, enfermedades y malezas',
+      referencia:
+        'Ganadería Tropical Paso a Paso (2021). Manejo Agroecológico de Plagas y Parásitos en Ganaderías a Pastoreo. [Video]. Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=p0F_z1Kx9WM&ab_channel=GanaderiaTropicalPasoaPaso',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.4. Rotación de potreros',
+      referencia:
+        'Agrolatina TV (20215). Ganadería Silvopastoril. [Video]. Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=2fuvV2UAwQ0&ab_channel=AgrolatinaTV',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Arvenses',
+      significado:
+        'Más conocidas como malezas. Son plantas que tienen un potencial de uso en ganadería por su valor nutricional, su efecto en la estructura del suelo, la protección de suelos de ladera y otros efectos alelopáticos, todavía no estudiados a plenitud.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Barrenar',
+      significado: 'Taladrar, agujerar alguna cosa.',
+    },
+    {
+      termino: 'Forraje',
+      significado: 'Hierba verde o seca que se da al ganado para alimentarlo.',
+    },
+    {
+      termino: 'Macolla',
+      significado:
+        'Conjunto de vástagos que nacen de la base de un mismo pie en manojos o penachos.',
+    },
+    {
+      termino: 'Medio ambiente',
+      significado:
+        'Entorno en el cual una organización opera, incluidos el aire, el agua, el suelo, los recursos naturales, la flora, la fauna, los seres humanos y sus interrelaciones. (Norma Técnica Colombiana NTC – ISO 14001, 2004).',
+    },
+    {
+      termino: 'Pradera',
+      significado:
+        'Terreno llano y con hierba de mayor extensión que el prado.',
+    },
+    {
+      termino: 'Pastoreo',
+      significado:
+        'Acción o actividad consistente en el cuidado y la alimentación del ganado en pastizales.',
+    },
+    {
+      termino: 'Residuo',
+      significado:
+        'Material o subproducto industrial considerado, por su cantidad, composición o particular naturaleza, para ser reintegrado a los ciclos, flujos y procesos de la misma u otras cadenas productivas. (Guía de Buenas Prácticas Ambientales para el sector avícola en Guatemala, 2008)',
+    },
+    {
+      termino: 'Silvopastoril',
+      significado:
+        'Sistemas que tiene como objeto la producción de silvícola (madera) y pastoril (pasto).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Campos, G. (2020). Normatividad en Seguridad y Salud en el Trabajo. Seguridad Laboral.',
+      link:
+        'https://www.seguridad-laboral.es/sl-latam/colombia/normatividad-en-seguridad-y-salud-en-el-trabajo-2019-2020-colombia_20200630.html',
+    },
+    {
+      referencia:
+        'Martínez, F. (2020). Pastoreo Rotacional. Infopastosyforrajes.',
+      link:
+        'https://infopastosyforrajes.com/sistemas-de-pastoreo/pastoreo-rotacional/',
+    },
+    {
+      referencia:
+        'Resolución 0312 de 2019 [Ministerio del Trabajo]. Por la cual se modifican los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo para empleadores y contratantes. Febrero 13 de 2019.',
+      link:
+        'https://www.arlsura.com/index.php/decretos-leyes-resoluciones-circulares-y-jurisprudencia',
     },
   ],
   creditos: [
@@ -204,7 +257,7 @@ export default {
           centro: 'Nombre centro de formación',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Cristian Mauricio Otálora Clavijo',
           cargo: 'Desarrollador Fullstack',
           centro: 'Nombre centro de formación',
         },

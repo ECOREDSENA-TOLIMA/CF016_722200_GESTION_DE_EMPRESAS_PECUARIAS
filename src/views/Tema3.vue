@@ -75,7 +75,131 @@
             .col-lg-10.mb-4.mb-lg-0
               h4 Periodos de crecimiento
               p Evaluar si se cumplen los tiempos de crecimiento para garantizar los compromisos que se tengan con los clientes.
+    Separador.mt-5        
+
+    .cont_3_2.pt-1(style="position:relative;")
+      .titulo-segundo.color-primario(style="position:relative")
+        h2#t_3_2 3.2.	Plan de contingencia 
+
+    p Para establecer un plan de contingencia y de gestión, se identificarán y calificarán los riesgos. Estas reservas se incluirán en la estimación de costos y en el presupuesto.  Mes a mes, se deberá llevar una revisión y actualización de los gastos y del presupuesto.
+    p.pb-5 Se deberán establecer los objetivos del plan, los cuales deben estar direccionados a:
+
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/3/8.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#E3E7DF")
+            .text-black.p-4
+              p.text-center Identificar, valorar y clasificar los riesgos potenciales, ya sean antrópicos o naturales.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/3/9.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#E3E7DF")
+            .p-4
+              p.text-center Tales riesgos potenciales pueden presentarse en las áreas de trabajo y puedan, incluso, catalogarse como emergencias.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/3/10.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta(style="background-color:#E3E7DF")
+            .p-4
+              p.text-center Es importante establecer acciones de educación y organización con el fin de convertir en hábito las medidas que deben adoptarse, para así proceder en forma segura en el momento de una posible evacuación.
     
+    .row.align-items-center.my-5.col-lg-10.m-auto  
+      .col-sm-12.col-lg-12
+        .titulo-sexto.mb-0.color-acento-contenido.mb-1
+          p.mb-0 #[b Tabla 5.] 
+            i Eventos que generan contingencias  
+
+    .tabla-a.color-acento-botones.my-5.col-lg-10.m-auto  
+      table
+        caption Eventos que generan contingencias 
+        thead
+          tr
+            th Origen
+            th Situación
+            
+        tbody
+          tr
+            td Eventos naturales o ajenos al sistema   
+            td Inundaciones <br> <br>  Vendavales <br> <br>  Tornados <br> <br>  Movimientos sísmicos <br> <br> 
+            
+          tr
+            td Antrópicos   
+            td Derrame de agroquímicos <br> <br> Incendios y explosiones <br> <br> Accidentes laborales <br> <br> Orden público <br> <br>  
+            
+    p.text-center Se deberán establecer los objetivos del plan, los cuales deben estar direccionados a:
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+      .row(titulo="Impactos a prevenir y mitigar")
+        .col-md-6.mb-4.mb-md-0
+          p El administrador y/o gerente, en el diseño del Plan de Contingencia, deberá planificar las actividades de prevención y preparación de la mano de obra, con el objeto de mitigar los efectos producidos por un accidente o una emergencia que comprometa la integridad física del personal, las comunidades vecinas, la finca y el ecosistema conjunto al sistema silvopastoril. 
+      
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/3/11.png', alt='Texto que describa la imagen')
+
+      .row(titulo="Impactos a prevenir y mitigar")
+        .col-md-6.mb-4.mb-md-0
+          p Luego de identificar la naturaleza de las amenazas del proyecto, los riesgos y la vulnerabilidad a los que se encuentra el personal encargado de la producción, se trazará la organización de los recursos humanos y técnicos necesarios para la respuesta oportuna y la disminución de las consecuencias de los eventos de emergencia que se puedan generar durante la ejecución del proyecto.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/3/12.png', alt='Texto que describa la imagen')
+      .row(titulo="Comisiones del comité de emergencias")
+        .col-md-6.mb-4.mb-md-0
+          p Se debe establecer el comité de emergencias, el cual debe estar liderado por el gerente o administrador del sistema silvopastoril. Este comité será el que tomará las decisiones en caso de emergencia. Este comité lo integraran dos comisiones: comisión técnica y comisión operativa.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/3/13.png', alt='Texto que describa la imagen')
+
+      .row(titulo="Procedimiento general para el control de emergencias ")
+        .col-md-6.mb-4.mb-md-0
+          p Es pertinente elaborar un procedimiento para emergencias el cual siempre que ocurra un evento se deberá seguir. Este procedimiento deberá ser revisado y ajustado periódicamente por el gerente del sistema.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/3/14.png', alt='Texto que describa la imagen')
+
+    Separador.mt-5        
+
+    .cont_3_3.pt-1(style="position:relative;")
+      .titulo-segundo.color-primario(style="position:relative")
+        h2#t_3_3 3.3.	Plan de mejoramiento  
+              
+    .row 
+     
+      .col-lg-8.order-2.order-lg-1
+        p.mb-5 Los diseños silvopastoriles elaborados para una finca en particular dependen de sus condiciones particulares, son estas mismas condiciones que, durante los procesos de producción, pueden variar levemente o significativamente, afectando la planificación del sistema silvopastoril. Es por esta razón que se debe establecer un plan de mejoramiento en caso de que las metas propuestas, desde la planificación del sistema, no vayan por el mejor camino.
+        p.mb-5 En cuanto a los planes de mejoramiento, es muy importante tener en cuenta los siguientes aspectos:     
+        TabsA.color-acento-botones.mb-5
+          .tarjeta.clr-paleYellow.p-4(titulo="Nuevas características")
+            h4 Nuevas características
+            p Desde la parte directiva se evaluarán las nuevas características presentadas durante la operación que afecten la programación u otros procesos relacionados con el sistema y propondrán un plan de mejoramiento.
+
+          .tarjeta.clr-paleYellow.p-4(titulo="Soluciones efectivas")
+            h4 Soluciones efectivas
+            p El plan de mejoramiento pretenderá dar soluciones efectivas a las problemáticas encontradas para mantener el equilibrio en las líneas productivas, para no entrar en sobrecostos y/o posibles pérdidas para el agricultor – ganadero. 
+
+          .tarjeta.clr-paleYellow.p-4(titulo="Correcciones al sistema de producción")
+            h4 Correcciones al sistema de producción
+            p Otro uso de los planes de mejoramiento es, precisamente, realizar correcciones en los sistemas de producción. En muchos casos, los planes de mejoramiento se diseñan para el crecimiento del negocio agroganadero propendiendo por el crecimiento en la producción, generando más empleo y garantizando estándares de calidad.
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure
+          img(src="@/assets/curso/temas/3/15.png", alt="alt", style="width:450px;").m-auto
+    
+
 
 </template>
 
