@@ -17,7 +17,7 @@
           p.mb-2.py-2(style="overflow-x: hidden !important") Para llevar a cabo todos los procesos operativos, es vital el potencial humano, ya que es el personal el que granizará que todo marche bien. Por esta razón es indispensable garantizar la seguridad y la calidad de vida del personal, lo cual conduce a una implementación de un 
             b Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST. 
 
-    p.align-items-center.my-1.col-lg-12.m-auto.mb-2.py-5 Analice la siguiente tabla y amplíe sus conocimientos sobre la normatividad relacionada con la gestión de la seguridad y salud en el trabajo.
+    p.align-items-center.my-1.col-lg-12.m-auto.mb-2.py-5 Al analizar la siguiente tabla se puede ampliar los conocimientos sobre la normatividad relacionada con la SG-SST. (ver tabla 1).
 
     .row.align-items-center.mb-5.col-lg-10.m-auto  
       .col-sm-12.col-lg-12
@@ -85,11 +85,11 @@
         
     .cont_1_1(style="position:relative;")
       .titulo-segundo.color-acento-contenido(style="position:relative")
-        h2#t_1_1 1.1  Ciclo hidrológico, usos y calidad    
+        h2#t_1_1 1.1  Requerimientos hídricos   
 
     p.align-items-center.my-1.col-lg-12.m-auto.mb-3 El requerimiento hídrico en un sistema silvopastoril va a depender de la influencia directa del clima en la finca; los aspectos a tener en cuenta son: temperatura, humedad relativa, viento.
 
-    p.align-items-center.my-1.col-lg-12.m-auto.mb-5 Tenga en cuenta las generalidades sobre estos tres aspectos y otros elementos importantes que se mencionan a continuación, relativos a los requerimientos hídricos; procure llevar registro de ello en su libreta personal de apuntes:
+    p.align-items-center.my-1.col-lg-12.m-auto.mb-5 Se deben tener en cuenta las generalidades sobre estos tres aspectos y otros elementos importantes que se mencionan a continuación, relativos a los requerimientos hídricos; se debe llevar registro de ello en una libreta personal de apuntes:
 
     SlyderB.p-3.mb-5(:datos="datosSlyder" style="background:#DBF9BD;")
 
@@ -108,7 +108,7 @@
           .indicador--click(v-if="mostrarIndicador")
           i.fas.fa-search       
   
-    ModalA(:abrir-modal.sync="modal1")
+    ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center.p-5(style="border-radius: 15px; background-color: #E3E7DF")
         .col-md-8.mb-4.mb-md-0
           h4 Cálculo requerimiento agua de cultivo
@@ -134,7 +134,7 @@
     
        
   
-    ModalA(:abrir-modal.sync="modal2")
+    ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center.p-5(style="border-radius: 15px; background-color: #E3E7DF")
         .col-md-8.mb-4.mb-md-0
           h4 Coeficientes de cultivo
@@ -164,7 +164,7 @@
         h2#t_1_2 1.2.	Manejo integrado de plagas, enfermedades y malezas 
 
     p Las plagas, enfermedades y malezas son una evidente amenaza a los sistemas silvopastoriles, debido a que estos actores influyen, directamente, en los beneficios que las plantas brindan a los animales y en su propio desarrollo; por eso es necesario visualizar una solución ecológica para el equilibrio y manejo general del sistema silvopastoril.
-    p.mb-5 Preste atención a las particularidades del manejo de plagas y malezas que se mencionan a continuación:     
+    p.mb-5 Se debe prestar atención a las particularidades del manejo de plagas y malezas que se mencionan a continuación:    
 
     .tarjeta.bg3.p-4.mb-5(style="background-color: #FFFAD0")
       LineaTiempoC.color-acento-botones(text-small)
@@ -224,7 +224,7 @@
             h4 ¿Qué es el “mulch” orgánico?
             p Cubierta natural que protege el suelo; es muy fácil de realizarla ya que se compone de materiales residuales de las podas, talas, cortezas, hojas, los cuales se descomponen en una compostela. Son fuente perfecta de nutrientes para los suelos. Dentro de las funciones que tiene el “mulch” orgánico esta regular la temperatura de los suelos, conservar la humedad, reducir el crecimiento de malezas, y regular la escorrentía superficial.
 
-    p.mb-5 Estudie la tabla que, a continuación, se muestra y conozca aspectos importantes sobre las plagas más comunes:
+    p.mb-5 Se deben estudiar las tablas 2 y 3 que a continuación se muestran, y que permiten reconocer aspectos importantes sobre las plagas más comunes:
 
     .row.align-items-center.mb-5.col-lg-12.m-auto  
       .col-sm-12.col-lg-12
@@ -237,7 +237,6 @@
         th Plagas
         td Acciones
       table
-        caption Sistemas silvopastoriles.
         tr
           th Hormigas (arrieras en su mayoría)  
           td Realizan el corte a las hojas provocando la defoliación de las plantas.
@@ -356,7 +355,7 @@
   
     .row.align-items-center.my-3.col-lg-12.m-0        
         p.mb-2.py-1(style="overflow-x: hidden !important") Hablar de pastoreo rotacional es, así mismo, hablar de la división de toda un área en pequeñas partes o potreros. De esta manera, mientras se está ocupando alguna de esas partes, las demás están en descanso.
-        p.mb-2.py-1(style="overflow-x: hidden !important") En el siguiente recurso, profundice en los aspectos cruciales que determinan, o no, un buen proceso de rotación de potreros; procure llevar registro de lo más destacado en su libreta personal de apuntes:
+        p.mb-2.py-1(style="overflow-x: hidden !important") En la siguiente información, se puede profundizar en los aspectos cruciales que determinan, o no, un buen proceso de rotación de potreros; se debe llevar registro de lo más destacado en una libreta personal de apuntes:
 
     figure.my-5
       .video
@@ -464,7 +463,7 @@
         img(src="@/assets/curso/temas/1/34.svg" data-aos="zoom-in-up")      
   
 
-    p.my-5 Profundice, ahora, en algunos aspectos relativos al manejo de excretas en el marco del sistema silvopastoril:
+    p.my-5 A continuación, se debe profundizar en algunos aspectos relativos al manejo de excretas en el marco del sistema silvopastoril:
 
     LineaTiempoE.color-primario(style="padding-right: 100px !important")
       .row(titulo="Manejo de excretas")
@@ -518,9 +517,15 @@
         .cajon.p-2.mt-0.col-lg-12.m-auto.pb-0(style="background-color:#DBF9BD; overflow-x: hidden !important")
           p.mb-2.py-2(style="overflow-x: hidden !important") La suplementación estratégica se basa en el análisis de la calidad nutricional de los alimentos, la estimación de los requerimientos nutricionales de los bovinos, el conocimiento de las condiciones climáticas de la zona de implementación, el suministro de cantidades recomendadas y el uso de un programa de balanceo de raciones. 
 
-    p.my-5 Tenga presente estos aspectos de la suplementación alimenticia; procure tomar nota de lo más relevante, en su libreta personal de apuntes:
+    p.my-5 Para complementar el tema sobre manejo de los sistemas silvopastoriles, se invita a ver el siguiente vídeo:
+    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=Wp5qbTODkuQ&ab_channel=FEDEGAN" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Capítulo 21 - Sistemas Silvopastoriles - Generalidades
+ 
 
-    .row.mb-5
+    .row.my-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/1/27.svg' alt='AvatarTop')
@@ -640,7 +645,7 @@ export default {
       {
         titulo: 'Requerimiento de agua de cultivo',
         texto:
-          'Cantidad de agua que se necesita para compensar la pérdida por evapotranspiración de un campo cultivado. Aun cuando los valores para evapotranspiración del cultivo (ETc) y el requerimiento de agua del cultivo son iguales, el requerimiento de agua del cultivo hace referencia a aquella cantidad de agua por suplir y la Etc (evapotranspiración del cultivo) se refiere a la cantidad de agua perdida por evapotranspiración. Generalmente, el requerimiento de agua de riego hace referencia a la diferencia existente entre el requerimiento del cultivo y la precipitación efectiva. El requerimiento de agua de riego también incluye agua adicional, para el lavado de sales y para la compensación por la no uniformidad de la aplicación del agua.',
+          'Cantidad de agua que se necesita para compensar la pérdida por evapotranspiración de un campo cultivado. Aun cuando los valores para evapotranspiración del cultivo (ETc) y el requerimiento de agua del cultivo son iguales, el requerimiento de agua del cultivo hace referencia a aquella cantidad de agua por suplir y la Etc (evapotranspiración del cultivo) se refiere a la cantidad de agua perdida por evapotranspiración.  </br> </br> Generalmente, el requerimiento de agua de riego hace referencia a la diferencia existente entre el requerimiento del cultivo y la precipitación efectiva. El requerimiento de agua de riego también incluye agua adicional, para el lavado de sales y para la compensación por la no uniformidad de la aplicación del agua.',
         imagen: require('@/assets/curso/temas/1/7.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

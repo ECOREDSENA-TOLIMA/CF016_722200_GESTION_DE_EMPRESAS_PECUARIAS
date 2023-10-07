@@ -30,6 +30,9 @@
         .cajon.color-primario.p-4.mt-0.col-lg-12.m-auto.pb-1(style="background-color:#E3E7DF;")
           p.mb-0.py-3(data-aos="fade-up") Como primera medida se deben evaluar las cifras, previo a las visitas en campo, para así darse una idea frente al balance general del sistema.  
 
+    p.mb-5 Para el proceso de evaluación del sistema silvopastoril, deben tenerse en cuenta algunos aspectos que se detallan a continuación:
+    
+
     .row(style="padding-right: 200px !important")
       .col-12
         LineaTiempoE.color-acento-contenido.mb-5
@@ -123,7 +126,6 @@
 
     .tabla-a.color-acento-botones.my-5.col-lg-10.m-auto  
       table
-        caption Eventos que generan contingencias 
         thead
           tr
             th Origen
@@ -146,32 +148,52 @@
           p El administrador y/o gerente, en el diseño del Plan de Contingencia, deberá planificar las actividades de prevención y preparación de la mano de obra, con el objeto de mitigar los efectos producidos por un accidente o una emergencia que comprometa la integridad física del personal, las comunidades vecinas, la finca y el ecosistema conjunto al sistema silvopastoril. 
       
         .col-md-6
+          .row.align-items-center.my-5.col-lg-10.m-auto  
+            .col-sm-12.col-lg-12
+              .titulo-sexto.mb-0.color-acento-contenido.mb-1
+                p.mb-0 #[b Figura 1.] 
+                  i Impactos a prevenir y mitigar 
           figure
-            img(src='@/assets/curso/temas/3/11.png', alt='Texto que describa la imagen')
-
-      .row(titulo="Impactos a prevenir y mitigar")
+            img(src='@/assets/curso/temas/3/11.png', alt='Figura 5 Impactos a prevenir y mitigar, en la figura se observan como impactos a prevenir y mitigar la contaminación ambiental, accidentes de trabajo, pérdidas humanas y materiales.' )
+      
+      .row(titulo="Riesgos a prevenir y mitigar")
         .col-md-6.mb-4.mb-md-0
           p Luego de identificar la naturaleza de las amenazas del proyecto, los riesgos y la vulnerabilidad a los que se encuentra el personal encargado de la producción, se trazará la organización de los recursos humanos y técnicos necesarios para la respuesta oportuna y la disminución de las consecuencias de los eventos de emergencia que se puedan generar durante la ejecución del proyecto.
       
         .col-md-6
+          .row.align-items-center.my-5.col-lg-10.m-auto  
+            .col-sm-12.col-lg-12
+              .titulo-sexto.mb-0.color-acento-contenido.mb-1
+                p.mb-0 #[b Figura 2.] 
+                  i Riesgos a prevenir y mitigar 
           figure
-            img(src='@/assets/curso/temas/3/12.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/3/12.png', alt='En la figura se representa como riesgos los sismos que afectan muros, cubiertas, personal, igualmente como riesgo están las inundaciones que afectan cultivos, animales, instalaciones y personal, para finalizar se incluyen los riesgos de contaminación por derrames de agrofertilizantes, como también inadecuado manejo de residuos sólidos y RESPEL.' )
+      
       .row(titulo="Comisiones del comité de emergencias")
         .col-md-6.mb-4.mb-md-0
           p Se debe establecer el comité de emergencias, el cual debe estar liderado por el gerente o administrador del sistema silvopastoril. Este comité será el que tomará las decisiones en caso de emergencia. Este comité lo integraran dos comisiones: comisión técnica y comisión operativa.
       
         .col-md-6
+          .row.align-items-center.my-5.col-lg-10.m-auto  
+              .col-sm-12.col-lg-12
+                .titulo-sexto.mb-0.color-acento-contenido.mb-1
+                  p.mb-0 #[b Figura 3.] 
+                    i Riesgos a prevenir y mitigar 
           figure
-            img(src='@/assets/curso/temas/3/13.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/3/13.png', alt='En la figura se representa los comités de emergencia como el de técnica, educativa y de comunicaciones, igualmente la comisión operativa.')
 
       .row(titulo="Procedimiento general para el control de emergencias ")
         .col-md-6.mb-4.mb-md-0
           p Es pertinente elaborar un procedimiento para emergencias el cual siempre que ocurra un evento se deberá seguir. Este procedimiento deberá ser revisado y ajustado periódicamente por el gerente del sistema.
       
         .col-md-6
+          .row.align-items-center.my-5.col-lg-10.m-auto  
+                .col-sm-12.col-lg-12
+                  .titulo-sexto.mb-0.color-acento-contenido.mb-1
+                    p.mb-0 #[b Figura 4.] 
+                      i Procedimiento general para el control de emergencias
           figure
-            img(src='@/assets/curso/temas/3/14.png', alt='Texto que describa la imagen')
-
+            img(src='@/assets/curso/temas/3/14.png', alt='En la figura se representa que el procedimiento inicia con la notificación de emergencia, sigue el encargado de las emergencias, se llega a una decisión: ¿manejo interno?, si la respuesta es si entonces se activa la brigada de emergencias, sigue el plan de evacuación y finaliza con el mantenimiento y vigilancia, si la respuesta es no entonces sigue notificar a grupos externos.')
     Separador.mt-5        
 
     .cont_3_3.pt-1(style="position:relative;")
