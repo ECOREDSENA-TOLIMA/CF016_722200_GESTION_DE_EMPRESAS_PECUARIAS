@@ -178,7 +178,7 @@
               .col-sm-12.col-lg-12
                 .titulo-sexto.mb-0.color-acento-contenido.mb-1
                   p.mb-0 #[b Figura 3.] 
-                    i Riesgos a prevenir y mitigar 
+                    i Comisiones del comité de emergencias
           figure
             img(src='@/assets/curso/temas/3/13.png', alt='En la figura se representa los comités de emergencia como el de técnica, educativa y de comunicaciones, igualmente la comisión operativa.')
 
@@ -221,7 +221,13 @@
         figure
           img(src="@/assets/curso/temas/3/15.png", alt="alt", style="width:450px;").m-auto
     
+    p.mt-5 Para complementar el tema sobre evaluación del sistema silvopastoril, se invita a ver el siguiente vídeo:
 
+    a.anexo.my-5.mb-lg-0(href="https://www.youtube.com//embed/y3OtPIcvsUM" target="_blank")
+      .anexo__icono
+        img(src="@/assets/template/icono-link.svg")
+      .anexo__texto
+        p Manejo de Suelos y Pastos en Explotaciones Ganaderas
 
 </template>
 

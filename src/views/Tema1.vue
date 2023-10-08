@@ -145,13 +145,15 @@
             b ETc 
             | con la 
             b ETo 
-            | ya que 
-            b ETc 
-            | = 
-            b ETo 
-            | x 
-            b Kc
-            |. El 
+            | ya que  <br> 
+          .row.align-items-center.my-5.col-lg-6.m-auto  
+            p.mx-5  
+              b ETc 
+              | = 
+              b ETo 
+              | x 
+              b Kc
+          p El 
             b Kc 
             | cambia según el estadio de la planta, es usualmente menor que 1; pero alcanza valores de hasta 1.2 cuando está en floración.
       
@@ -359,7 +361,7 @@
 
     figure.my-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com//embed/zKx6lr_0Fik" title="Video Huella Hidrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com//embed/Wp5qbTODkuQ" title="Video Huella Hidrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p Las siguientes, son algunas ventajas y desventajas del pastoreo rotacional. Analice, con atención, cada una de ellas:
 
@@ -422,7 +424,7 @@
         h2#t_1_5 1.5.	Manejo y disposición de residuos   
 
     p Los residuos generados en un sistema silvopastoril, aplicado desde la perspectiva orgánica, prácticamente son nulos, ya que los procesos de poda, tala y mantenimientos, producirán materias orgánicas que son propias para la elaboración de otros subproductos como el abono orgánico.
-    p Le presentamos una serie de factores, que usted debe tener en cuenta, para procesos efectivos de manejo y disposición de residuos:    
+    p Se presenta una serie de factores, que se debe tener en cuenta, para procesos efectivos de manejo y disposición de residuos:
 
     figure.desktop.d-none.d-sm-block.d-sm-none.d-lg-block.d-none.d-md-block
       ImagenInfografica.color-acento-botones

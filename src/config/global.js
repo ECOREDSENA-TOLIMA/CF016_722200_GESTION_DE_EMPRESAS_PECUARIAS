@@ -77,7 +77,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación del sistema silvopastoril',
         desarrolloContenidos: true,
         subMenu: [
           {
