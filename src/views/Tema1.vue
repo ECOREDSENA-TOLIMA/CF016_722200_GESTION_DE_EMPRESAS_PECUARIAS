@@ -515,9 +515,9 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p.mb-5 Capítulo 21 - Sistemas Silvopastoriles - Generalidades
+            p Capítulo 21 - Sistemas Silvopastoriles - Generalidades
 
-    .row.align-items-center.my-1.col-lg-12.m-auto        
+    .row.align-items-center.my-1.col-lg-12.m-auto.mt-5        
       .col-lg-5.col-sm-12.col-m-12.col-md-12
         figure
           img.mb-1(src='@/assets/curso/temas/1/26.png').m-auto(data-aos="fade-right")
