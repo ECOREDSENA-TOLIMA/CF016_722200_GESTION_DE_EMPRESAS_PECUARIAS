@@ -270,7 +270,7 @@
           th Palomillas 
           td Son mariposas nocturnas, su aspecto es peludo y afectan los frutos provocando su pudrición y posterior caída. 
         tr
-          th Minadores  
+          th “Trips”  
           td Son insectos del orden Thysanoptera, los adultos afectan la superficie de las hojas y de los frutos 
 
     .row.align-items-center.my-5.col-lg-8.m-auto  
@@ -510,6 +510,13 @@
       .titulo-segundo.color-primario(style="position:relative")
         h2#t_1_6 1.6.	Suplementación alimenticia  
 
+    p.my-5 Para complementar el tema sobre manejo de los sistemas silvopastoriles, se invita a ver el siguiente vídeo:
+    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=Wp5qbTODkuQ&ab_channel=FEDEGAN" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p.mb-5 Capítulo 21 - Sistemas Silvopastoriles - Generalidades
+
     .row.align-items-center.my-1.col-lg-12.m-auto        
       .col-lg-5.col-sm-12.col-m-12.col-md-12
         figure
@@ -519,12 +526,7 @@
         .cajon.p-2.mt-0.col-lg-12.m-auto.pb-0(style="background-color:#DBF9BD; overflow-x: hidden !important")
           p.mb-2.py-2(style="overflow-x: hidden !important") La suplementación estratégica se basa en el análisis de la calidad nutricional de los alimentos, la estimación de los requerimientos nutricionales de los bovinos, el conocimiento de las condiciones climáticas de la zona de implementación, el suministro de cantidades recomendadas y el uso de un programa de balanceo de raciones. 
 
-    p.my-5 Para complementar el tema sobre manejo de los sistemas silvopastoriles, se invita a ver el siguiente vídeo:
-    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=Wp5qbTODkuQ&ab_channel=FEDEGAN" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Capítulo 21 - Sistemas Silvopastoriles - Generalidades
+    
  
 
     .row.my-5

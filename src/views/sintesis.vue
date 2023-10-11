@@ -5,10 +5,10 @@
 
     .titulo-sexto.color-adicional-2.mb-3
       h2 Gestión de empresas pecuarias
-      span Síntesis: Mantenimiento y evaluación del sistema pastoril
 
-
-    p.mb-5 Analice el siguiente mapa de conceptos y establezca su propia síntesis de los temas y elementos desarrollados en este componente formativo. Si lo requiere, haga un repaso de los puntos temáticos que considere necesarios.
+    p.mb-5 Se recapitula del componente formativo 
+      b Mantenimiento y evaluación del sistema silvopastoril
+      | , en cuanto a los temas como el manejo de los sistemas, con los requerimientos hídricos, el manejo integrado de plagas, enfermedades y malezas, como también la importancia de la poda de especies arbóreas, rotación de potreros, manejo, disposición de residuos y suplementación alimenticia, igualmente, se trató el tema sobre manejo de información en sistema silvopastoril, en el cual se resalta el “Software” Ganadero, como también las diferentes aplicaciones para manejo agropecuario, para finalizar se incluyó la mejora de procesos con la evaluación del sistema silvopastoril, en cuanto a los parámetros técnicos, la identificación del riesgo con el plan de contingencia, y el logro de metas con el plan de mejora.
 
     .row.justify-content-center
       .col-lg-10.mb-5
