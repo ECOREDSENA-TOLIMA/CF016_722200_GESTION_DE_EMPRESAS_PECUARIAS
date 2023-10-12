@@ -17,11 +17,11 @@
         p.mb-2.py-1(style="overflow-x: hidden !important") Las fincas ganaderas con un sistema silvopastoril intensivo y de gran escala, manejan mucha información sobre sus actividades productivas, por esta razón es importante la introducción de herramientas ofimáticas que faciliten y aseguren el control, desarrollo y proyección de estas actividades.
         p.mb-2.py-1(style="overflow-x: hidden !important") A continuación, se puede profundizar en las formas de manejo de información en una finca agropecuaria, bajo el acompañamiento de herramientas ofimáticas. Se debe tomar nota de los aspectos más relevantes en la libreta personal de apuntes:
 
-    a.anexo.my-5.mb-lg-0(href="https://www.youtube.com//embed/y3OtPIcvsUM" target="_blank")
+    a.anexo.my-5.mb-lg-0(href="https://www.youtube.com/watch?v=zKx6lr_0Fik" target="_blank")
       .anexo__icono
         img(src="@/assets/template/icono-link.svg")
       .anexo__texto
-        p Manejo de Suelos y Pastos en Explotaciones Ganaderas (Silvopastoril)
+        p Como funciona software ganadero
  
 
 </template>

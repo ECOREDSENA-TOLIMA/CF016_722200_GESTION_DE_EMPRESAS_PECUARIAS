@@ -358,12 +358,15 @@
     .row.align-items-center.my-3.col-lg-12.m-0        
         p.mb-2.py-1(style="overflow-x: hidden !important") Hablar de pastoreo rotacional es, así mismo, hablar de la división de toda un área en pequeñas partes o potreros. De esta manera, mientras se está ocupando alguna de esas partes, las demás están en descanso.
         p.mb-2.py-1(style="overflow-x: hidden !important") En la siguiente información, se puede profundizar en los aspectos cruciales que determinan, o no, un buen proceso de rotación de potreros; se debe llevar registro de lo más destacado en una libreta personal de apuntes:
+    
+    a.anexo.my-5.mb-lg-0(href="https://www.youtube.com//embed/Wp5qbTODkuQ" target="_blank")
+      .anexo__icono
+        img(src="@/assets/template/icono-link.svg")
+      .anexo__texto
+        p Manejo de Suelos y Pastos en Explotaciones Ganaderas (Silvopastoril)
+ 
 
-    figure.my-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com//embed/Wp5qbTODkuQ" title="Video Huella Hidrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    p Las siguientes, son algunas ventajas y desventajas del pastoreo rotacional. Analice, con atención, cada una de ellas:
+    p.mt-5 Las siguientes, son algunas ventajas y desventajas del pastoreo rotacional. Analice, con atención, cada una de ellas:
 
     .row.align-items-center.my-5.col-lg-12.m-auto  
       .col-sm-12.col-lg-12
@@ -511,11 +514,11 @@
         h2#t_1_6 1.6.	Suplementación alimenticia  
 
     p.my-5 Para complementar el tema sobre manejo de los sistemas silvopastoriles, se invita a ver el siguiente vídeo:
-    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=Wp5qbTODkuQ&ab_channel=FEDEGAN" target="_blank")
+    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=y3OtPIcvsUM" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Capítulo 21 - Sistemas Silvopastoriles - Generalidades
+            p Manejo de suelos y pastos en explotaciones ganaderas (Silvopastoril)
 
     .row.align-items-center.my-1.col-lg-12.m-auto.mt-5        
       .col-lg-5.col-sm-12.col-m-12.col-md-12
