@@ -15,7 +15,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.png", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis1.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
