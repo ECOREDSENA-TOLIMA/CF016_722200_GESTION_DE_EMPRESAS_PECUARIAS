@@ -27,7 +27,7 @@
 
     .tabla-b.color-acento-contenido.col-lg-10.m-auto.mb-5  
       .tabla-b__header
-        th Tipo de Norma
+        td Tipo de Norma
         td Concepto
       table
         caption Gestión de la seguridad y salud en el trabajo.
@@ -79,7 +79,7 @@
         tr
           th Resolución 2400 de 1979
           td Establece algunas disposiciones sobre vivienda, higiene y seguridad en los establecimientos de trabajo. Incluye las características que deben cumplir estos establecimientos y también normas generales sobre riesgos físicos, químicos y biológicos 
-        tr
+        trSlyder
           th Resolución 0312 de 2019
           td Tiene por objeto establecer los estándares mínimos del sistema de gestión de seguridad y salud en el trabajo SG-SST para las personas naturales y jurídicas. 
         
@@ -91,7 +91,7 @@
 
     p.align-items-center.my-1.col-lg-12.m-auto.mb-5 Se deben tener en cuenta las generalidades sobre estos tres aspectos y otros elementos importantes que se mencionan a continuación, relativos a los requerimientos hídricos; se debe llevar registro de ello en una libreta personal de apuntes:
 
-    SlyderB.p-3.mb-5(:datos="datosSlyder" style="background:#DBF9BD;")
+    SlyderC.pr-4.mb-2(:datos="datosSlyder" style="background:#DBF9BD;")
 
 
     .row.justify-content-center.mb-5.col-lg-12.m-auto  
@@ -235,8 +235,8 @@
             i Plagas comunes en los sistemas silvopastoriles 
 
     .tabla-b.color-acento-contenido.col-lg-12.m-auto.mb-5  
-      .tabla-b__header
-        th Plagas
+      .tabla-b__header.px-5
+        td Plagas 
         td Acciones
       table
         tr
@@ -291,8 +291,8 @@
             i Especies repelentes de plagas 
 
     .tabla-b.color-acento-contenido.col-lg-10.m-auto.mb-5  
-      .tabla-b__header
-        th Planta
+      .tabla-b__header.px-5
+        td Planta
         td Ventajas
       table
         caption Otras plantas con injerencia en el control de plagas son las forrajeras: como el botón de oro y la canavalia; brindan una muy buena fuente de nutrición a los animales. 
@@ -444,7 +444,7 @@
           p Por ser un abono orgánico se puede almacenar por largos periodos de tiempo, siempre y cuando no esté a la acción del sol y de la lluvia.
 
         .tarjeta.color-secundario.p-3(x="82.9%" y="30%" numero="+")
-          .h5.mb-2 Identificación de la materia prima
+          .h5.mb-2 Materia prima
           p Estiércol, hojarasca, troncos, ramas, otros.
 
         .tarjeta.color-secundario.p-3(x="75%" y="60%" numero="+")
@@ -513,13 +513,6 @@
       .titulo-segundo.color-primario(style="position:relative")
         h2#t_1_6 1.6.	Suplementación alimenticia  
 
-    p.my-5 Para complementar el tema sobre manejo de los sistemas silvopastoriles, se invita a ver el siguiente vídeo:
-    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=y3OtPIcvsUM" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p Manejo de suelos y pastos en explotaciones ganaderas (Silvopastoril)
-
     .row.align-items-center.my-1.col-lg-12.m-auto.mt-5        
       .col-lg-5.col-sm-12.col-m-12.col-md-12
         figure
@@ -528,6 +521,16 @@
         p(data-aos="fade-up" style="overflow-x: hidden !important") La alimentación de los animales es base primordial para una buena producción, por esta razón el sistema deberá garantizar que la combinación de pasturas, forrajes y árboles, brinden una alimentación balanceada que aporte los nutrientes necesarios para la cría, la ceba o el doble propósito, en la ganadería colombiana.
         .cajon.p-2.mt-0.col-lg-12.m-auto.pb-0(style="background-color:#DBF9BD; overflow-x: hidden !important")
           p.mb-2.py-2(style="overflow-x: hidden !important") La suplementación estratégica se basa en el análisis de la calidad nutricional de los alimentos, la estimación de los requerimientos nutricionales de los bovinos, el conocimiento de las condiciones climáticas de la zona de implementación, el suministro de cantidades recomendadas y el uso de un programa de balanceo de raciones. 
+
+    
+
+
+    p.my-5 Se debe tener presente estos aspectos de la suplementación alimenticia; se debe procurar tomar nota de lo más relevante, en la libreta personal de apuntes: 
+    a.anexo.mb-5.mb-lg-0(href="https://www.youtube.com/watch?v=y3OtPIcvsUM" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Manejo de suelos y pastos en explotaciones ganaderas (Silvopastoril)
 
     
  

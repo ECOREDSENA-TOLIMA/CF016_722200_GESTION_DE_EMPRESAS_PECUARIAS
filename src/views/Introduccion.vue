@@ -15,7 +15,7 @@
           img(src='@/assets/curso/temas/introduccion/introduccion.svg').m-auto(data-aos="fade-right")
       .col
         p.mb-2.py-1(style="overflow-x: hidden !important") Históricamente el ser humano ha tenido, consecuentemente, la necesidad de buscar sus alimentos: esto le ha conducido a explotar sus recursos cada vez más rápidamente, complicando la renovación de los mismos de manera natural. Con el aumento de la población mundial se evidencia que suministrar alimentos a toda la población es un tema álgido y que tiene a la comunidad internacional en continuas discusiones desde hace décadas.
-        p.mb-2.py-1(style="overflow-x: hidden !important") Le damos la bienvenida al estudio del componente 16 “
+        p.mb-2.py-1(style="overflow-x: hidden !important") Le damos la bienvenida al estudio del componente“
           b Mantenimiento y evaluación del sistema silvopastoril
           |  ”, adéntrese en los contenidos de este material formativo y tenga una experiencia satisfactoria. Para comenzar con éxito, visualice el recurso que se muestra a continuación:
            

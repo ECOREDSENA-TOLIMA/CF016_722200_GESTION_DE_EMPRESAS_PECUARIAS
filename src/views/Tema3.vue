@@ -154,7 +154,7 @@
                 p.mb-0 #[b Figura 1.] 
                   i Impactos a prevenir y mitigar 
           figure
-            img(src='@/assets/curso/temas/3/11.png', alt='Figura 5 Impactos a prevenir y mitigar, en la figura se observan como impactos a prevenir y mitigar la contaminación ambiental, accidentes de trabajo, pérdidas humanas y materiales.' )
+            img(src='@/assets/curso/temas/3/11.png', alt='Figura 1 Impactos a prevenir y mitigar, en la figura se observan como impactos a prevenir y mitigar la contaminación ambiental, accidentes de trabajo, pérdidas humanas y materiales.' )
       
       .row(titulo="Riesgos a prevenir y mitigar")
         .col-md-6.mb-4.mb-md-0
