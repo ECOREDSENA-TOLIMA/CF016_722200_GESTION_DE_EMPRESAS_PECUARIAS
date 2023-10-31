@@ -19,21 +19,27 @@
 
     p.align-items-center.my-1.col-lg-12.m-auto.mb-2.py-5 Al analizar la siguiente tabla se puede ampliar los conocimientos sobre la normatividad relacionada con la SG-SST. (ver tabla 1).
 
-    .row.align-items-center.mb-5.col-lg-10.m-auto  
+    .row.align-items-center.my-5.col-lg-12.m-auto  
       .col-sm-12.col-lg-12
         .titulo-sexto.mb-0.color-acento-contenido.mb-1
           p.mb-0 #[b Tabla 1.] 
             i Normatividad SG-SST
 
-    .tabla-b.color-acento-contenido.col-lg-10.m-auto.mb-5  
-      .tabla-b__header
-        td Tipo de Norma
-        td Concepto
+    .tabla-a.color-acento-botones 
       table
-        caption Gestión de la seguridad y salud en el trabajo.
+        caption Gestión de la seguridad y salud en el trabajo. 
+        thead
+          tr
+            th Tipo de Norma
+            th Concepto
+            
+        tbody    
         tr
           th Código sustantivo del trabajo de 1951  
-          td Propende por la justicia en las relaciones entre empleador y trabajador. 
+          td Propende por la justicia en las relaciones entre empleador y trabajador.
+        tr
+          th Decreto 1072 de 2015   
+          td Junta las normas y reglamentaciones vigentes (en materia laboral), definiendo condiciones para el establecimiento de un sistema de Gestión de seguridad y Salud en el Trabajo SG-SST.  
         tr
           th Decreto ley 1295 de 1994
           td Decreta la organización y la administración del Sistema General de Riesgos Profesionales.
@@ -79,11 +85,11 @@
         tr
           th Resolución 2400 de 1979
           td Establece algunas disposiciones sobre vivienda, higiene y seguridad en los establecimientos de trabajo. Incluye las características que deben cumplir estos establecimientos y también normas generales sobre riesgos físicos, químicos y biológicos 
-        trSlyder
+        tr
           th Resolución 0312 de 2019
           td Tiene por objeto establecer los estándares mínimos del sistema de gestión de seguridad y salud en el trabajo SG-SST para las personas naturales y jurídicas. 
         
-    .cont_1_1(style="position:relative;")
+    .cont_1_1.mt-5(style="position:relative;")
       .titulo-segundo.color-acento-contenido(style="position:relative")
         h2#t_1_1 1.1  Requerimientos hídricos   
 
@@ -228,17 +234,20 @@
 
     p.mb-5 Se deben estudiar las tablas 2 y 3 que a continuación se muestran, y que permiten reconocer aspectos importantes sobre las plagas más comunes:
 
-    .row.align-items-center.mb-5.col-lg-12.m-auto  
+    .row.align-items-center.my-5.col-lg-12.m-auto  
       .col-sm-12.col-lg-12
         .titulo-sexto.mb-0.color-acento-contenido.mb-1
           p.mb-0 #[b Tabla 2.] 
             i Plagas comunes en los sistemas silvopastoriles 
 
-    .tabla-b.color-acento-contenido.col-lg-12.m-auto.mb-5  
-      .tabla-b__header.px-5
-        td Plagas 
-        td Acciones
+    .tabla-a.color-acento-botones 
       table
+        thead
+          tr
+            th Plagas 
+            th Acciones
+            
+        tbody
         tr
           th Hormigas (arrieras en su mayoría)  
           td Realizan el corte a las hojas provocando la defoliación de las plantas.
@@ -270,7 +279,8 @@
           th Palomillas 
           td Son mariposas nocturnas, su aspecto es peludo y afectan los frutos provocando su pudrición y posterior caída. 
         tr
-          th “Trips”  
+          th
+           i Trips  
           td Son insectos del orden Thysanoptera, los adultos afectan la superficie de las hojas y de los frutos 
 
     .row.align-items-center.my-5.col-lg-8.m-auto  
@@ -284,39 +294,41 @@
 
     p.mb-5 Otro método de control de plagas es la introducción de plantas que atraen algunos insectos depredadores naturales de estas, que se pueden instalar en asociación con las barreras vivas o las cortinas rompe vientos. También existen plantas repelentes a algunas plagas, una gran mayoría de estas están en la clasificación de platas aromáticas como las relacionadas en esta tabla:   
 
-    .row.align-items-center.mb-5.col-lg-10.m-auto  
+    .row.align-items-center.my-5.col-lg-12.m-auto  
       .col-sm-12.col-lg-12
         .titulo-sexto.mb-0.color-acento-contenido.mb-1
           p.mb-0 #[b Tabla 3.] 
             i Especies repelentes de plagas 
 
-    .tabla-b.color-acento-contenido.col-lg-10.m-auto.mb-5  
-      .tabla-b__header.px-5
-        td Planta
-        td Ventajas
-      table
+    .tabla-a.color-acento-botones 
+      table   
         caption Otras plantas con injerencia en el control de plagas son las forrajeras: como el botón de oro y la canavalia; brindan una muy buena fuente de nutrición a los animales. 
-        tr
-          th Ajo  
-          td El ajo ayuda en control de gusanos, ácaros y pulgones. 
-        tr
-          th Manzanilla
-          td Es un atrayente natural de enemigos naturales de las plagas, controla los pulgones.
-        tr
-          th Ruda
-          td Es un repelente de los gusanos trozadores y medidores, de pulgones y controla la acción de las hormigas.
-        tr
-          th Orégano
-          td Repelente natural de gusanos medidores y trozadores y de los pulgones.
-        tr
-          th Flor de muerto
-          td Repela la mosca blanca o palomilla, controla los nematodos del suelo y es una trampa natural de los pulgones. 
-        tr
-          th Albahaca
-          td Es una trampa natural de los pulgones y repelente de insectos como el chinche.
-        tr
-          th Romero
-          td Atrae enemigos naturales de las plagas y repela insectos.
+        thead
+          tr
+            th Planta
+            th Ventajas
+        tbody
+          tr
+            th Ajo  
+            td El ajo ayuda en control de gusanos, ácaros y pulgones. 
+          tr
+            th Manzanilla
+            td Es un atrayente natural de enemigos naturales de las plagas, controla los pulgones.
+          tr
+            th Ruda
+            td Es un repelente de los gusanos trozadores y medidores, de pulgones y controla la acción de las hormigas.
+          tr
+            th Orégano
+            td Repelente natural de gusanos medidores y trozadores y de los pulgones.
+          tr
+            th Flor de muerto
+            td Repela la mosca blanca o palomilla, controla los nematodos del suelo y es una trampa natural de los pulgones. 
+          tr
+            th Albahaca
+            td Es una trampa natural de los pulgones y repelente de insectos como el chinche.
+          tr
+            th Romero
+            td Atrae enemigos naturales de las plagas y repela insectos.
 
     .cont_1_3.pt-3(style="position:relative;")
       .titulo-segundo.color-primario(style="position:relative")
@@ -655,7 +667,7 @@ export default {
       {
         titulo: 'Requerimiento de agua de cultivo',
         texto:
-          'Cantidad de agua que se necesita para compensar la pérdida por evapotranspiración de un campo cultivado. Aun cuando los valores para evapotranspiración del cultivo (ETc) y el requerimiento de agua del cultivo son iguales, el requerimiento de agua del cultivo hace referencia a aquella cantidad de agua por suplir y la Etc (evapotranspiración del cultivo) se refiere a la cantidad de agua perdida por evapotranspiración.  </br> </br> Generalmente, el requerimiento de agua de riego hace referencia a la diferencia existente entre el requerimiento del cultivo y la precipitación efectiva. El requerimiento de agua de riego también incluye agua adicional, para el lavado de sales y para la compensación por la no uniformidad de la aplicación del agua.',
+          'Cantidad de agua que se necesita para compensar la pérdida por evapotranspiración de un campo cultivado. Aun cuando los valores para evapotranspiración del cultivo (ETc) y el requerimiento de agua del cultivo son iguales, el requerimiento de agua del cultivo hace referencia a aquella cantidad de agua por suplir y la ETc (evapotranspiración del cultivo) se refiere a la cantidad de agua perdida por evapotranspiración.  </br> </br> Generalmente, el requerimiento de agua de riego hace referencia a la diferencia existente entre el requerimiento del cultivo y la precipitación efectiva. El requerimiento de agua de riego también incluye agua adicional, para el lavado de sales y para la compensación por la no uniformidad de la aplicación del agua.',
         imagen: require('@/assets/curso/temas/1/7.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
